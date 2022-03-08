@@ -2,8 +2,8 @@ import React from "react"
 
 function App() {
     return (<div>
-        <h2>Welcome to Keri Schroeder</h2>
-        <h3>Date : {new Date().toDateString()}</h3>
+        <h2>Welcome to 4 Petes Sake</h2>
+        <h3>Today is : {new Date().toDateString()}</h3>
     </div>)
 }
 
