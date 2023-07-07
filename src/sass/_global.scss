@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Verdana';
+  font-size: 1em;
+  color: var(--text);
+}
+
+#app {
+  width: 95vw;
+  height: 99vh;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list--inline {
+  display: flex;
+}
+
+.list__item {
+  padding: 0 15px;
+  &:first-of-type {
+    padding-left: 0;
+  }
+}
+
+button {
+  font-size: 12px;
+}

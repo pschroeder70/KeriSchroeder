@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+}
+
+.content--promo-image {
+  width: 33%;
+  margin: auto;
+}

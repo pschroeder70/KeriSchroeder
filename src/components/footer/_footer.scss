@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 100%;
+}
+
+.footer {
+  display: flex;
+  width: var(--content-width);
+  align-items: center;
+  height: 50px;
+  
+}
+
+.footer__copywrite,
+.footer__social-links {
+  flex: 1 0 auto;
+  font-size: 12px;
+}
+
+.footer__social-links {
+  ul {
+    justify-content: flex-end;
+  }
+}
